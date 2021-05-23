@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/solar_panel/static/css/main.1302e2ca.chunk.css",
+    "main.css": "/solar_panel/static/css/main.2c181d72.chunk.css",
     "main.js": "/solar_panel/static/js/main.9ad01444.chunk.js",
     "main.js.map": "/solar_panel/static/js/main.9ad01444.chunk.js.map",
     "runtime-main.js": "/solar_panel/static/js/runtime-main.d1067873.js",
@@ -10,7 +10,7 @@
     "static/js/3.f9f98298.chunk.js": "/solar_panel/static/js/3.f9f98298.chunk.js",
     "static/js/3.f9f98298.chunk.js.map": "/solar_panel/static/js/3.f9f98298.chunk.js.map",
     "index.html": "/solar_panel/index.html",
-    "static/css/main.1302e2ca.chunk.css.map": "/solar_panel/static/css/main.1302e2ca.chunk.css.map",
+    "static/css/main.2c181d72.chunk.css.map": "/solar_panel/static/css/main.2c181d72.chunk.css.map",
     "static/js/2.c21e7982.chunk.js.LICENSE.txt": "/solar_panel/static/js/2.c21e7982.chunk.js.LICENSE.txt",
     "static/media/Section_3.css": "/solar_panel/static/media/GothamBook.58fb9151.ttf",
     "static/media/Section1.css": "/solar_panel/static/media/GothamMedium.0a910c0b.ttf",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.d1067873.js",
     "static/js/2.c21e7982.chunk.js",
-    "static/css/main.1302e2ca.chunk.css",
+    "static/css/main.2c181d72.chunk.css",
     "static/js/main.9ad01444.chunk.js"
   ]
 }
