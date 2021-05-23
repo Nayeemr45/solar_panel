@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/solar_panel/static/css/main.1302e2ca.chunk.css",
+    "main.js": "/solar_panel/static/js/main.9ad01444.chunk.js",
+    "main.js.map": "/solar_panel/static/js/main.9ad01444.chunk.js.map",
+    "runtime-main.js": "/solar_panel/static/js/runtime-main.d1067873.js",
+    "runtime-main.js.map": "/solar_panel/static/js/runtime-main.d1067873.js.map",
+    "static/js/2.c21e7982.chunk.js": "/solar_panel/static/js/2.c21e7982.chunk.js",
+    "static/js/2.c21e7982.chunk.js.map": "/solar_panel/static/js/2.c21e7982.chunk.js.map",
+    "static/js/3.f9f98298.chunk.js": "/solar_panel/static/js/3.f9f98298.chunk.js",
+    "static/js/3.f9f98298.chunk.js.map": "/solar_panel/static/js/3.f9f98298.chunk.js.map",
+    "index.html": "/solar_panel/index.html",
+    "static/css/main.1302e2ca.chunk.css.map": "/solar_panel/static/css/main.1302e2ca.chunk.css.map",
+    "static/js/2.c21e7982.chunk.js.LICENSE.txt": "/solar_panel/static/js/2.c21e7982.chunk.js.LICENSE.txt",
+    "static/media/Section_3.css": "/solar_panel/static/media/GothamBook.58fb9151.ttf",
+    "static/media/Section1.css": "/solar_panel/static/media/GothamMedium.0a910c0b.ttf",
+    "static/media/Icon ionic-md-arrow-round-back.6a25c2bb.svg": "/solar_panel/static/media/Icon ionic-md-arrow-round-back.6a25c2bb.svg",
+    "static/media/Logo2.33ff2a4c.png": "/solar_panel/static/media/Logo2.33ff2a4c.png",
+    "static/media/Section5.css": "/solar_panel/static/media/Mask Group 3.41166b51.png",
+    "static/media/alternative-energy-ecological-concept.b5897f6d.png": "/solar_panel/static/media/alternative-energy-ecological-concept.b5897f6d.png",
+    "static/media/business-customer-service.0fda6f45.png": "/solar_panel/static/media/business-customer-service.0fda6f45.png",
+    "static/media/dot.3ced64db.svg": "/solar_panel/static/media/dot.3ced64db.svg",
+    "static/media/eon-energie-einfach-erklaert-solarenergie.a8c3a0c8.png": "/solar_panel/static/media/eon-energie-einfach-erklaert-solarenergie.a8c3a0c8.png",
+    "static/media/icon1.0f5c5e42.svg": "/solar_panel/static/media/icon1.0f5c5e42.svg",
+    "static/media/icon2.51dcf649.svg": "/solar_panel/static/media/icon2.51dcf649.svg",
+    "static/media/icon3.ff01f7e5.svg": "/solar_panel/static/media/icon3.ff01f7e5.svg",
+    "static/media/icon4.2d9773bb.svg": "/solar_panel/static/media/icon4.2d9773bb.svg",
+    "static/media/icon5.994c009c.svg": "/solar_panel/static/media/icon5.994c009c.svg",
+    "static/media/Section_2.css": "/solar_panel/static/media/icon5_hover.f9eb8eda.svg",
+    "static/media/man-worker-firld-by-solar-panels.a5e9e4f2.png": "/solar_panel/static/media/man-worker-firld-by-solar-panels.a5e9e4f2.png",
+    "static/media/section3.daefd8d8.jpg": "/solar_panel/static/media/section3.daefd8d8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d1067873.js",
+    "static/js/2.c21e7982.chunk.js",
+    "static/css/main.1302e2ca.chunk.css",
+    "static/js/main.9ad01444.chunk.js"
+  ]
+}
