@@ -1,0 +1,74 @@
+
+@font-face {
+  font-family: 'Gotham-bold';
+  src: local('Gotham-bold'), url(./Assets/Fonts/Gotham-Bold.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Gotham-Medium';
+  src: local('Gotham-Medium'), url(./Assets/Fonts/GothamMedium.ttf) format('truetype');
+}
+
+body {
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Gotham-Medium', 'Gotham-bold' , 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Gotham-bold';
+  src: local('Gotham-bold'), url(./Assets/Fonts/Gotham-Bold.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Gotham-Medium';
+  src: local('Gotham-Medium'), url(./Assets/Fonts/GothamMedium.ttf) format('truetype');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* @media (min-width: 320px) and (max-width: 425px){
+ */
+/* 
+@media (min-width: 375px) and (max-width: 414px) {
+  body {
+    width: 100%;
+    zoom: 60%;
+    overflow-x: hidden;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  body {
+    width: 33rem !important;
+    zoom: 73% !important;
+    overflow-x: hidden !important;
+  }
+}
+@media (min-width: 415px) and (max-width: 425px) {
+  body {
+    width: 33rem;
+    zoom: 73%;
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+  body {
+    width: 33rem;
+    zoom: 73%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1025px) {
+  body {
+    width: 81rem;
+    zoom: 73%;
+  }
+}
+ */
