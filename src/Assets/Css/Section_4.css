@@ -324,6 +324,10 @@ svg #_4 {
 @media (min-width: 481px) and (max-width: 768px) {
   .section-4 {
     margin-top: 0px !important;
+    padding-top: 2rem !important;
+  }
+  .offer-button-div{
+    padding-bottom: 2rem !important;
   }
   .section-4-card-content {
     min-width: 8rem !important;
@@ -347,6 +351,9 @@ svg #_4 {
   .sectoin-4-grid-7,
   .sectoin-4-grid-8 {
     max-width: none !important;
+  }
+  .sectoin-4-grid-2{
+    height: 6.5rem !important;
   }
   .section-4-img {
     width: 8rem !important;

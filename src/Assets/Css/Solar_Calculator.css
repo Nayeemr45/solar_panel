@@ -253,6 +253,7 @@
     height: 80rem;
   }
   .solar-cal-grid{
+    height: 59vh;
     align-items: center;
   }
 }

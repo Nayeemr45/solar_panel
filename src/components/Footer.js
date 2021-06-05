@@ -11,7 +11,7 @@ import Logo2 from '../Assets/Images/logo.svg';
 
 const Footer = ({isinsolar}) => {
   return (
-    <Box className={isinsolar?'footer':'footer'}>
+    <Box className={isinsolar?'footer1':'footer'}>
       <Grid container className="footer-grid-1">
         <Grid item  sm={1} className="footer-grid-2"></Grid>
         <Grid container item  sm className="footer-grid-3">

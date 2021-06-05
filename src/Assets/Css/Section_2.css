@@ -63,13 +63,16 @@ svg #Path_47 {
 
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .section-2 {
+    height: 27rem !important;
+  }
   .section-2-grid {
     display: grid !important;
   }
   .card-content {
-    min-width: 100px !important;
-    min-height: 100px !important;
-    justify-content: center !important;
+    min-width: 5rem !important;
+    min-height: 7rem !important;
+    justify-content: start !important;
     display: grid;
     align-items: center;
     padding: 8px !important;
@@ -80,7 +83,9 @@ svg #Path_47 {
     height: 50px;
   }
   .section-2-card-title {
-    font-size: 14px !important;
+    font-size: 17px !important;
+    width: 15rem;
+
   }
   .sub-title {
     font-size: 12px !important;
@@ -89,16 +94,17 @@ svg #Path_47 {
 
 @media (min-width: 481px) and (max-width: 768px) {
   .card-content {
-    min-width: 13rem !important;
-    min-height: 12rem !important;
+    min-width: 12rem !important;
+    min-height: 18rem !important;
+    padding: 1rem 1rem !important;
   }
   .section-2 {
-    height: 15rem !important;
+    height: 25rem !important;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
   .section-2 {
-    height: 15rem !important;
+    height: 20rem !important;
   }
   .section-2-grid {
     display: grid !important;
@@ -123,8 +129,8 @@ svg #Path_47 {
     max-width: 350px;
   }
   .card-content {
-    min-width: 15rem !important;
-    min-height: 12rem !important;
+    min-width: 17rem !important;
+    min-height: 13rem !important;
     justify-content: center !important;
     display: grid;
     align-items: center;
