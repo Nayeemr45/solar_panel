@@ -10,7 +10,7 @@
 }
 .content-1-list {
   font-size: 20px !important;
-  font-family: 'Gotham-Medium' !important;
+  font-family: -apple-system , 'Gotham-Medium' !important;
   text-align: left;
   background-color: #f6f4ef !important;
   display: flex;
@@ -90,7 +90,7 @@
 .content-2-paragraph {
   font-family: 'Gotham-Book' !important;
   text-align: left;
-  font-size: 20px !important;
+  font-size: 18px !important;
   line-height: 1.5 !important;
 }
 .content-2-paragraph-2 {
@@ -132,12 +132,15 @@
 }
 .content-2-list-2 {
   display: flex;
-  margin-bottom: 10px !important;
+  align-items: center !important;
+  margin-bottom: 15px !important;
   color: #666460;
   font-size: 20px !important;
-  font-family: 'Gotham-Book' !important;
+  font-family: -apple-system , 'Gotham-Book' !important;
 }
 .content-2-list-2-icon {
+  display: flex;
+  align-items: center;
   padding-right: 10px;
 }
 .content-2-box-4 {
@@ -376,7 +379,7 @@
 .content-4-paragraph {
   font-family: 'Gotham-Book' !important;
   text-align: left;
-  font-size: 20px !important;
+  font-size: 18px !important;
   line-height: 1.5 !important;
 }
 .content-4-grid {

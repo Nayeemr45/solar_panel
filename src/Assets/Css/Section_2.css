@@ -158,7 +158,7 @@ svg #Path_47 {
 }
 @media (min-width: 1201px) and (max-width: 1366px) {
   .card {
-    max-width: 40rem !important;
+    max-width: 20rem !important;
   }
   .card-content {
     max-width: 40rem !important;
@@ -166,6 +166,18 @@ svg #Path_47 {
   }
   .section-2-card-title {
     font-size: 16px !important;
+  }
+  .section-2-grid-2{
+    display: flex;
+    justify-content: center !important;
+  }
+  .section-2-grid-3{
+    display: flex;
+    justify-content: center !important;
+  }
+  .section-2-grid-4{
+    display: flex;
+    justify-content: center !important;
   }
 }
 @media (min-width: 1367px) and (max-width:1536px) {
