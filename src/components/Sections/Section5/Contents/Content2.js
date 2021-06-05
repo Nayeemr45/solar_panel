@@ -118,7 +118,7 @@ const Content2 = () => {
                       <circle cx="14" cy="14" r="13" fill="none" />
                     </g>
                     <text
-                      id="_1"
+                      id="1"
                       data-name="1"
                       transform="translate(794 4684)"
                       fill="var(--icon-color)"
@@ -159,7 +159,7 @@ const Content2 = () => {
                       <circle cx="14" cy="14" r="13" fill="none" />
                     </g>
                     <text
-                      id="_2"
+                      id="2"
                       data-name="2"
                       transform="translate(792 4684)"
                       fill="var(--icon-color)"
@@ -200,7 +200,7 @@ const Content2 = () => {
                       <circle cx="14" cy="14" r="13" fill="none" />
                     </g>
                     <text
-                      id="_3"
+                      id="3"
                       data-name="3"
                       transform="translate(792 4684)"
                       fill="var(--icon-color)"
@@ -241,7 +241,7 @@ const Content2 = () => {
                       <circle cx="14" cy="14" r="13" fill="none" />
                     </g>
                     <text
-                      id="_4"
+                      id="4"
                       data-name="4"
                       transform="translate(792 4684)"
                       fill="var(--icon-color)"
