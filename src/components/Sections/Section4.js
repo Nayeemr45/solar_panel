@@ -1,15 +1,6 @@
 import React from 'react';
-import {
-  Avatar,
-  Box,
-  Grid,
-  Typography,
-  Button,
-  ListItemAvatar,
-} from '@material-ui/core';
+import {Box, Grid, Typography, Button, ListItemAvatar} from '@material-ui/core';
 import '../../Assets/Css/Section_4.css';
-import Icon5 from '../../Assets/Icons/icon4.svg';
-import Section4Cards from './Cards/Section4Cards';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 
@@ -21,8 +12,8 @@ const Section4 = () => {
         <Grid item xs={10} sm={6}>
           <div className="sectoin-4-heading-div">
             <Typography variant="h4" gutterBottom className="sectoin-4-heading">
-              Quite Simply To Your{' '}
-              <span className="text-color">Own Solar Power</span>
+            Simply Your{''} 
+              <span className="text-color"> Own Solar Power</span>
             </Typography>
           </div>
         </Grid>
@@ -37,12 +28,11 @@ const Section4 = () => {
               gutterBottom
               className="sectoin-4-paragraph"
             >
-              Around 1.7 million solar systems have already been installed on
-              private house roofs in Germany. But that also means that there are
-              still around 40 million households that do not use solar energy.
-              Does your roof also have the potential for a solar system? And
-              what costs would you have to pay if you wanted to produce solar
-              power yourself?
+              Around 8 out of 10 roofs of residential properties in Spain are
+              viable for the installation of solar panels. Join the thousands of
+              homes and businesses who are taking advantage of 3000 hours (on
+              average) of sun each year. Does your roof have the potential for a
+              solar system? What would it cost to install?
             </Typography>
           </div>
         </Grid>
@@ -57,8 +47,7 @@ const Section4 = () => {
               gutterBottom
               className="sectoin-4-paragraph-2"
             >
-              Here you will receive an analysis of your roof and a non-binding
-              offer:
+              Receive an analysis of your roof and a no obligation offer:
             </Typography>
           </div>
         </Grid>
@@ -194,9 +183,6 @@ const Section4 = () => {
                 </g>
               </g>
             </svg>
-
-            {/*             <img src={Mask_Group} alt={''} className="sectoin-4-img"/>
-             */}
           </Grid>
 
           <Grid item xs={2} sm={2}></Grid>
@@ -206,23 +192,16 @@ const Section4 = () => {
         <Grid container className="sectoin-4-grid-3">
           <Grid item sm={1} xl={2} className="sectoin-4-grid-4"></Grid>
           <Grid item sm={2} xl={2} className="sectoin-4-grid-5">
-            {/* <Section4Cards
-              title={'Unverbindliches Angebot anfordern'}
-              subtitle={'Mit unserem solarrenchner'}
-              icon={Icon1}
-              Number_Icon={Number_Icon1}
-            />
- */}
             <Card className="section-4-card">
               <CardContent className="section-4-card-content">
                 <Grid>
                   <Grid style={{display: 'grid', justifyContent: 'center'}}>
-                    {/*  <img src={checkIcon.icon} className="section-4-icon-avatar" alt={''} /> */}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="228"
                       height="159"
                       viewBox="0 0 228 159"
+                      className="section-4-card-icon"
                     >
                       <g
                         id="Group_46081"
@@ -394,6 +373,7 @@ const Section4 = () => {
                       width="44"
                       height="44"
                       viewBox="0 0 44 44"
+                      className="section-4-card-number-icon-1"
                     >
                       <g
                         id="Group_46060"
@@ -401,11 +381,11 @@ const Section4 = () => {
                         transform="translate(4704 -4141)"
                       >
                         <g
-                          id="Ellipse_25"
+                          id="section-4-card-number-icon-1"
                           data-name="Ellipse 25"
                           transform="translate(-4704 4141)"
                           fill="#fff"
-                          stroke="var(--color)"
+                          stroke="var(--section-4-number-color)"
                           strokeWidth="2"
                         >
                           <circle cx="22" cy="22" r="22" stroke="none" />
@@ -415,7 +395,7 @@ const Section4 = () => {
                           id="_1"
                           data-name="1"
                           transform="translate(-4682 4173)"
-                          fill="var(--color)"
+                          fill="var(--section-4-number-color)"
                           fontSize="25"
                           fontFamily="SegoeUI, Segoe UI"
                         >
@@ -432,35 +412,27 @@ const Section4 = () => {
                   component="h2"
                   className="section-4-card-title"
                 >
-                  Unverbindliches Angebot anfordern
+                  Request a quote with our solar calculator
                 </Typography>
                 <Typography
                   variant="body2"
                   component="p"
                   className="section-4-card-sub-title"
-                >
-                  Mit unserem solarrenchner
-                </Typography>
+                ></Typography>
               </CardContent>
             </Card>
           </Grid>
           <Grid item sm={2} xl={2} className="sectoin-4-grid-6">
-            {/*  <Section4Cards
-              title={'Beratung'}
-              subtitle={'Durch lokalen E.on solarexperten'}
-              icon={Icon2}
-              Number_Icon={Number_Icon2}
-            /> */}
             <Card className="section-4-card">
               <CardContent className="section-4-card-content">
                 <Grid>
                   <Grid style={{display: 'grid', justifyContent: 'center'}}>
-                    {/*  <img src={checkIcon.icon} className="section-4-icon-avatar" alt={''} /> */}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="228"
                       height="159"
                       viewBox="0 0 228 159"
+                      className="section-4-card-icon"
                     >
                       <g
                         id="Group_46081"
@@ -540,6 +512,7 @@ const Section4 = () => {
                       width="44"
                       height="44"
                       viewBox="0 0 44 44"
+                      className="section-4-card-number-icon-2"
                     >
                       <g
                         id="Group_46060"
@@ -547,11 +520,11 @@ const Section4 = () => {
                         transform="translate(4704 -4141)"
                       >
                         <g
-                          id="Ellipse_25"
+                          id="section-4-card-number-icon-2"
                           data-name="Ellipse 25"
                           transform="translate(-4704 4141)"
                           fill="#fff"
-                          stroke="var(--color)"
+                          stroke="var(--section-4-number-color)"
                           strokeWidth="2"
                         >
                           <circle cx="22" cy="22" r="22" stroke="none" />
@@ -561,7 +534,7 @@ const Section4 = () => {
                           id="_2"
                           data-name="2"
                           transform="translate(-4682 4172)"
-                          fill="var(--color)"
+                          fill="var(--section-4-number-color)"
                           fontSize="25"
                           fontFamily="SegoeUI, Segoe UI"
                         >
@@ -578,35 +551,27 @@ const Section4 = () => {
                   component="h2"
                   className="section-4-card-title"
                 >
-                  Unverbindliches Angebot anfordern
+                  Receive a full study on your solar potential
                 </Typography>
                 <Typography
                   variant="body2"
                   component="p"
                   className="section-4-card-sub-title"
-                >
-                  Mit unserem solarrenchner
-                </Typography>
+                ></Typography>
               </CardContent>
             </Card>
           </Grid>
           <Grid item sm={2} xl={2} className="sectoin-4-grid-7">
-            {/* <Section4Cards
-              title={'Installation'}
-              subtitle={'Durch lokalen E.on partner'}
-              icon={Icon3}
-              Number_Icon={Number_Icon3}
-            /> */}
             <Card className="section-4-card">
               <CardContent className="section-4-card-content">
                 <Grid>
                   <Grid style={{display: 'grid', justifyContent: 'center'}}>
-                    {/*  <img src={checkIcon.icon} className="section-4-icon-avatar" alt={''} /> */}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="228"
                       height="159"
                       viewBox="0 0 228 159"
+                      className="section-4-card-icon"
                     >
                       <g
                         id="Group_46081"
@@ -670,6 +635,7 @@ const Section4 = () => {
                       width="44"
                       height="44"
                       viewBox="0 0 44 44"
+                      className="section-4-card-number-icon-3"
                     >
                       <g
                         id="Group_46060"
@@ -677,11 +643,11 @@ const Section4 = () => {
                         transform="translate(4704 -4141)"
                       >
                         <g
-                          id="Ellipse_25"
+                          id="section-4-card-number-icon-3"
                           data-name="Ellipse 25"
                           transform="translate(-4704 4141)"
                           fill="#fff"
-                          stroke="var(--color)"
+                          stroke="var(--section-4-number-color)"
                           strokeWidth="2"
                         >
                           <circle cx="22" cy="22" r="22" stroke="none" />
@@ -691,7 +657,7 @@ const Section4 = () => {
                           id="_3"
                           data-name="3"
                           transform="translate(-4682 4173)"
-                          fill="var(--color)"
+                          fill="var(--section-4-number-color)"
                           fontSize="25"
                           fontFamily="SegoeUI, Segoe UI"
                         >
@@ -708,15 +674,13 @@ const Section4 = () => {
                   component="h2"
                   className="section-4-card-title"
                 >
-                  Unverbindliches Angebot anfordern
+                  Installation by our experts
                 </Typography>
                 <Typography
                   variant="body2"
                   component="p"
                   className="section-4-card-sub-title"
-                >
-                  Mit unserem solarrenchner
-                </Typography>
+                ></Typography>
               </CardContent>
             </Card>
           </Grid>
@@ -725,12 +689,12 @@ const Section4 = () => {
               <CardContent className="section-4-card-content">
                 <Grid>
                   <Grid style={{display: 'grid', justifyContent: 'center'}}>
-                    {/*  <img src={checkIcon.icon} className="section-4-icon-avatar" alt={''} /> */}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="228"
                       height="159"
                       viewBox="0 0 228 159"
+                      className="section-4-card-icon"
                     >
                       <g
                         id="Group_46081"
@@ -900,6 +864,7 @@ const Section4 = () => {
                       width="44"
                       height="44"
                       viewBox="0 0 44 44"
+                      className="section-4-card-number-icon-4"
                     >
                       <g
                         id="Group_46060"
@@ -907,11 +872,11 @@ const Section4 = () => {
                         transform="translate(4704 -4141)"
                       >
                         <g
-                          id="Ellipse_25"
+                          id="section-4-card-number-icon-4"
                           data-name="Ellipse 25"
                           transform="translate(-4704 4141)"
                           fill="#fff"
-                          stroke="var(--color)"
+                          stroke="var(--section-4-number-color)"
                           strokeWidth="2"
                         >
                           <circle cx="22" cy="22" r="22" stroke="none" />
@@ -921,7 +886,7 @@ const Section4 = () => {
                           id="_4"
                           data-name="4"
                           transform="translate(-4682 4172)"
-                          fill="var(--color)"
+                          fill="var(--section-4-number-color)"
                           fontSize="25"
                           fontFamily="SegoeUI, Segoe UI"
                         >
@@ -938,15 +903,13 @@ const Section4 = () => {
                   component="h2"
                   className="section-4-card-title"
                 >
-                  Unverbindliches Angebot anfordern
+                  Start saving and consume green energy
                 </Typography>
                 <Typography
                   variant="body2"
                   component="p"
                   className="section-4-card-sub-title"
-                >
-                  Mit unserem solarrenchner
-                </Typography>
+                ></Typography>
               </CardContent>
             </Card>
           </Grid>
@@ -957,7 +920,22 @@ const Section4 = () => {
         <Button className="button">
           Request an offer free of charge
           <ListItemAvatar className="avatar">
-            <Avatar src={Icon5} className="icon"></Avatar>
+            <svg
+              className="icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="16.608"
+              height="16.608"
+              viewBox="0 0 16.608 16.608"
+            >
+              <defs></defs>
+              <path
+                id="Icon_ionic-ios-arrow-dropleft-circle"
+                data-name="Icon ionic-ios-arrow-dropleft-circle"
+                className="cls-1"
+                d="M11.679,3.375a8.3,8.3,0,1,1-8.3,8.3A8.3,8.3,0,0,1,11.679,3.375ZM9.946,14.917a.774.774,0,0,0,0,1.09.761.761,0,0,0,.543.224A.774.774,0,0,0,11.036,16l3.753-3.765a.77.77,0,0,0-.024-1.062L10.957,7.355a.771.771,0,0,0-1.09,1.09l3.27,3.234Z"
+                transform="translate(-3.375 -3.375)"
+              />
+            </svg>
           </ListItemAvatar>
         </Button>
       </div>

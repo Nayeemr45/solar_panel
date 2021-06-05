@@ -1,20 +1,40 @@
 body{
   --color: #ffdc00;
+  --icon-color: #ffdc00;
+  --list-icon-color: #18384d;
+  --second-icon-color: #18384d;
+  --list-text-color: #18384d;
   --text-color: #ffdc00;
-  --button-color: #ffdc00;
+  --text-color2: #fff;
+  --second-text-color: #18384d;
+  --content-2-text-color: #18384d;
+  --section-4-number-color: #18384d;
+  --button-color: #007DC0;
+  --button-icon: #fff;
+  --direction-hover-color: #18384d;
+  --footer-background-color: #18384d;
+  --footer-icon: #fff;
+  --button-text-color: #fff;
+  --menu-button-text-color: #000;
   --card-icon-color: #ffdc00;
   --card-icon-color-2: #fff;
+  --sectoin-2-card-hover-color: #18384d;
   --card-hover-color: #ffdc00;
+  --rectangle-color: #ffdc00;
 }
 .text-color{
   color: var(--text-color);
 }
 
 @font-face {
-  font-family: 'Gotham-bold';
-  src: local('Gotham-bold'), url(./Assets/Fonts/Gotham-Bold.otf) format('truetype');
+  font-family: 'Gotham-Light';
+  src: local('Gotham-Light'), url(./Assets/Fonts/Gotham-Light.otf) format('truetype');
 }
 @font-face {
   font-family: 'Gotham-Medium';
   src: local('Gotham-Medium'), url(./Assets/Fonts/GothamMedium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Gotham-Book';
+  src: local('Gotham-Book'), url(./Assets/Fonts/GothamBook.ttf) format('truetype');
 }

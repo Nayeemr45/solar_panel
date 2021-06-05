@@ -1,82 +1,68 @@
-@font-face {
-  font-family: 'Gotham-Bold';
-  src: local('Gotham-Bold'), url(../Fonts/Gotham-Bold.otf) format('truetype');
-}
-@font-face {
-  font-family: 'Gotham-Medium';
-  src: local('Gotham-Medium'), url(../Fonts/GothamMedium.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Gotham-Book';
-  src: local('Gotham-Book'), url(../Fonts/GothamBook.ttf) format('truetype');
-}
 .section-2 {
-  height: 450px !important;
+  height: 25rem !important;
   display: grid;
   align-items: center;
 }
-.MuiGrid-container {
+.section-2-grid {
   grid-column-gap: 30px;
   grid-row-gap: 30px;
 }
 .card {
-  justify-content: center !important;
+  max-width: 40rem !important;
 }
 .card-content {
-  min-width: 340px !important;
-  min-height: 250px !important;
+  max-width: 40rem !important;
+  min-height: 20rem !important;
   justify-content: center !important;
   display: grid;
   align-items: center;
-  text-align: center;
+  text-align: start;
+  padding: 2rem 3rem !important;
 }
-.card-content {
-  background-color: rgba(251, 185, 6, 0.08) !important;
-}
+
 .card-content:hover {
-  background: var(--card-hover-color) !important;
+  background: var(--sectoin-2-card-hover-color) !important;
   color: #fff !important;
 }
-.card-content:hover > .title {
+/* .card-content:hover > .section-2-card-title {
   color: #fff !important;
-}
+} */
 .card-content:hover > .sub-title {
   color: #fff !important;
 }
-.card-content:hover > .icon-avatar {
+.card-content:hover > .section-2-card-icon-avatar {
   fill: red !important;
   content: url(../Icons/icon5_hover.svg) !important;
-}
-.card-content:hover > .icon-avatar {
-  fill: red !important;
-  content: url(../Icons/icon5_hover.svg) !important;
-}
-.card-content:hover > svg #Rectangle_598 {
- fill: #fff !important;
-}
-.card-content:hover > svg #Path_47 {
- fill: var(--card-icon-color) !important;
 }
 
-.title {
-  font-size: 22px !important;
-  font-family: 'Gotham-Bold' !important;
-  color: #262524 !important;
+.card-content:hover > svg #Rectangle_598 {
+  fill: #fff !important;
+}
+.card-content:hover > svg #Path_47 {
+  fill: var(--card-icon-color) !important;
+}
+svg #Path_47 {
+  fill: var(--card-icon-color) !important;
+}
+#Rectangle_598 {
+  fill: #fff !important;
+}
+.section-2-card-title {
+  font-size: 23px !important;
+  font-family: 'Gotham-Light' !important;
+  color: #fff !important;
 }
 .sub-title {
   display: flex;
-  font-size: 10px !important;
+  font-size: 18px !important;
   font-family: 'Gotham-Medium' !important;
   color: var(--text-color) !important;
   align-items: center;
   justify-content: center;
 }
-.icon-avatar {
-  margin-left: auto;
-  margin-right: auto;
-}
 
-@media (min-width: 320px) and (max-width: 767px) {
+
+@media (min-width: 320px) and (max-width: 480px) {
   .section-2-grid {
     display: grid !important;
   }
@@ -87,30 +73,33 @@
     display: grid;
     align-items: center;
     padding: 8px !important;
-    text-align: center;
+    text-align: start;
   }
-  .icon-avatar {
-    margin-left: auto;
-    margin-right: auto;
+  .section-2-card-icon-avatar {
     width: 50px;
     height: 50px;
   }
-  .title {
+  .section-2-card-title {
     font-size: 14px !important;
   }
   .sub-title {
     font-size: 12px !important;
   }
 }
-@media (min-width: 1366px) and (max-width: 1441px) {
-  .section-2-grid {
-    grid-column-gap: 0px !important;
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .card-content {
+    min-width: 13rem !important;
+    min-height: 12rem !important;
   }
-  .card {
-    max-width: 350px;
+  .section-2 {
+    height: 15rem !important;
   }
 }
-@media (min-width: 768px) and (max-width: 1025px) {
+@media (min-width: 769px) and (max-width: 1024px) {
+  .section-2 {
+    height: 15rem !important;
+  }
   .section-2-grid {
     display: grid !important;
     grid-template-columns: 0.25fr 0.5fr 0.5fr 0.5fr 0.25fr;
@@ -134,22 +123,58 @@
     max-width: 350px;
   }
   .card-content {
-    min-width: 215px !important;
-    max-width: 215px !important;
-    min-height: 250px !important;
+    min-width: 15rem !important;
+    min-height: 12rem !important;
     justify-content: center !important;
     display: grid;
     align-items: center;
-    text-align: center;
+    text-align: left;
   }
-  .title {
+  .section-2-card-title {
     font-size: 13px !important;
   }
   .sub-title {
     font-size: 9px !important;
   }
 }
-@media (min-width: 1280px) and (max-width: 1441px) {
+@media (min-width: 1025px) and (max-width: 1200px) {
+  
+  .card {
+    max-width: 32rem !important;
+  }
+  .card-content {
+    max-width: 40rem !important;
+    min-height: 13rem !important;
+  }
+  .section-2-card-title {
+    font-size: 13px !important;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1366px) {
+  .card {
+    max-width: 40rem !important;
+  }
+  .card-content {
+    max-width: 40rem !important;
+    min-height: 12rem !important;
+  }
+  .section-2-card-title {
+    font-size: 16px !important;
+  }
+}
+@media (min-width: 1367px) and (max-width:1536px) {
+  .card {
+    max-width: 40rem !important;
+  }
+  .card-content {
+    max-width: 40rem !important;
+    min-height: 13rem !important;
+  }
+  .section-2-card-title {
+    font-size: 18px !important;
+  }
+}
+@media (min-width: 1537px) and (max-width: 1920px) {
   .section-2-grid {
     display: grid !important;
     grid-template-columns: 0.25fr 0.5fr 0.5fr 0.5fr 0.25fr;
@@ -171,5 +196,25 @@
   }
   .card {
     max-width: 350px;
+  }
+}
+
+@media (min-width: 1921px) and (max-width: 2880px) {
+  .section-2 {
+    height: 28rem !important;
+  }
+  .section-2-card-icon-avatar {
+    width: 8rem;
+    height: 8rem;
+  }
+  .section-2-card-title {
+    font-size: 42px !important;
+  }
+  .card {
+    max-width: 40rem !important;
+  }
+  .card-content {
+    max-width: 40rem !important;
+    min-height: 23rem !important;
   }
 }

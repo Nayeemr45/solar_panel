@@ -11,8 +11,8 @@ const Section5 = () => {
     <div className="section-5">
       <Content1 />
       <Content2 />
-      <Content3 />
-      <Content4 />
+{/*       <Content3 />
+ */}      <Content4 />
       <Content5 />
       <Content6 />
     </div>

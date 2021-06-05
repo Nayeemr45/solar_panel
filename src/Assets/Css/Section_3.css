@@ -1,11 +1,3 @@
-@font-face {
-  font-family: 'Gotham-Bold';
-  src: local('Gotham-Bold'), url(../Fonts/Gotham-Bold.otf) format('truetype');
-}
-@font-face {
-  font-family: 'Gotham-Book';
-  src: local('Gotham-Book'), url(../Fonts/GothamBook.ttf) format('truetype');
-}
 .section-3 {
   height: 635px;
 }
@@ -15,7 +7,7 @@
   z-index: 5;
 }
 .section-3-grid-2 {
-  margin-top: 160px !important;
+  margin-top: 5rem !important;
 }
 .section-3-grid-4 {
   display: grid;
@@ -25,46 +17,46 @@
   grid-column-gap: 0px;
 }
 .img {
-  height: 490px;
-  background-image: url(../Images/3.3.jpg);
+  height: 410px;
+  background-image: url(../Images/section-3-background.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   justify-content: start;
   align-items: center;
-  bottom: 561px;
+  bottom: 28rem;
   position: relative;
 }
 .Section_3_img {
   position: relative;
   z-index: 1;
+  width: 100%;
+  height: 30rem;
 }
 .sectoin-3-left {
-  padding-top: 230px;
+  padding-top: 181px;
   position: relative;
   z-index: 100;
 }
 .sectoin-3-heading {
   justify-content: flex-start;
   display: flex;
-  color: var(--text-color);
+  color: var(--second-text-color);
   font-size: 36px !important;
-  font-family: 'Gotham-Bold' !important;
+  font-family: 'Gotham-Light' !important;
   text-align: left;
   line-height: 1.5 !important;
 }
 .sectoin-3-paragraph {
   justify-content: flex-start;
   display: flex;
-  color: #fafafa;
+  color: var(--second-text-color);
   font-size: 20px !important;
   font-family: 'Gotham-Book' !important;
   text-align: left;
   line-height: 1.25 !important;
 }
-@media (min-width: 320px) and (max-width: 767px) {
-  .section-3 {
-  }
+@media (min-width: 320px) and (max-width: 480px) {
   .section-3-grid,
   .section-3-grid-6 {
     display: grid !important;
@@ -102,19 +94,18 @@
     height: 300px;
   }
   .sectoin-3-heading {
-    font-size: 28px !important;
+    font-size: 26px !important;
   }
   .img {
     margin-top: 140px !important;
     height: 650px !important;
-/*     width: 33.75rem !important;
- */    width: 100%;
+    bottom: 35rem !important;
   }
   .sectoin-3-left {
     padding-top: 450px;
   }
-  .cal-button{
-      margin-top: 20px !important;
+  .cal-button {
+    margin-top: 20px !important;
   }
   .sectoin-3-paragraph {
     font-size: 14px !important;
@@ -122,7 +113,7 @@
   .sectio-3-avatar {
     justify-content: center;
     display: flex;
-}
+  }
   .sectio-3-icon {
     width: 30px !important;
     height: 20px !important;
@@ -130,8 +121,39 @@
     justify-content: flex-end !important;
   }
 }
-  @media (min-width: 768px) and (max-width: 1025px) {
-    .Section_3_img {
-      width: max-content;
+@media (min-width: 481px) and (max-width: 768px) {
+  .section-3 {
+    height: 25rem;
+    position: relative;
+  }
+
+  .img {
+    bottom: 19rem;
+    height: 18rem;
+    position: relative;
+  }
+  .sectoin-3-heading {
+    font-size: 17px !important;
+  }
+  .sectoin-3-paragraph {
+    font-size: 12px !important;
+  }
+  .Section_3_img {
+    width: 100%;
+    height: 20rem;
+  }
+  .section-3-grid-2 {
+    margin-top: 5rem !important;
+  }
+  .sectoin-3-left {
+    padding-top: 8rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .Section_3_img {
+    width: 100%;
+  }
+  .sectoin-3-heading {
+    font-size: 32px !important;
   }
 }

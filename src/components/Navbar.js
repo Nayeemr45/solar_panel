@@ -55,6 +55,7 @@ const useStyles = makeStyles((theme) => ({
   AppBar: {
     height: 90,
     display: 'grid',
+    backgroundColor: '#fff'
     //background: `url("http://lorempixel.com/1920/1080/nature") no-repeat center center`,
   },
   mainLogo: {
@@ -72,6 +73,7 @@ const useStyles = makeStyles((theme) => ({
     height: '100%',
     borderRadius: 0,
     justifyContent: 'flex-start',
+    cursor: 'pointer'
   },
   link: {
     paddingRight: '20px',
@@ -98,17 +100,21 @@ const useStyles = makeStyles((theme) => ({
   logo: {
     fontFamily: 'Work Sans, sans-serif',
     fontWeight: 600,
-    color: '#FFFEFE',
     textAlign: 'left',
   },
   menuButton: {
     fontFamily: 'Gotham-Book',
     fontSize: '15px',
     marginLeft: '90px',
-    color: '#3B3B40',
+    color: 'var(--menu-button-text-color)',
     textTransform: 'none',
+    backgroundColor: 'transparent',
+    '&:hover': {
+      backgroundColor: 'transparent',
+    },
     [theme.breakpoints.down('xs')]: {
       marginLeft: '40px',
+      
     },
   },
   "@media (min-width: 1024px) and (max-width: 1441px)": {
@@ -128,7 +134,7 @@ const useStyles = makeStyles((theme) => ({
     },
 
   },
-  "@media (min-width: 320px) and (max-width: 767px)": {
+  "@media (min-width: 320px) and (max-width: 480px)": {
     AppBar: {
       width: '100%'
     },
@@ -141,7 +147,7 @@ const useStyles = makeStyles((theme) => ({
   drawerContainer: {
     padding: '20px 30px',
     paddingLeft: '50px',
-    paddingRight: '100px'
+    paddingRight: '2rem'
   },
 }));
 
@@ -246,7 +252,7 @@ const Navbar = () => {
             component: RouterLink,
             to: href,
             color: 'inherit',
-            style: {textDecoration: 'none'},
+            style: {textDecoration: 'none' },
             key: label,
           }}
         >
@@ -258,7 +264,7 @@ const Navbar = () => {
 
   const mainlogo = (
     <Typography variant="h6" component="h1" className={logo}>
-      <Avatar src={Logo} className={classes.avatar} />
+     <RouterLink to='/'> <Avatar src={Logo} className={classes.avatar} /></RouterLink>
     </Typography>
   );
 
